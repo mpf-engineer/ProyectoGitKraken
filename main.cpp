@@ -1,4 +1,5 @@
 // main.cpp
+// Más cambios
 #include <iostream>
 #include "Primo.h"
 #include "Factorial.h"
