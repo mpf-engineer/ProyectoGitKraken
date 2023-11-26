@@ -1,4 +1,5 @@
 // main.cpp
+// llamada
 #include <iostream>
 #include "Primo.h"
 #include "Factorial.h"
