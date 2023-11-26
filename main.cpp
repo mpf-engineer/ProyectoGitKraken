@@ -1,12 +1,13 @@
 // main.cpp
-// Más cambios
+// llamada
+// Mï¿½s cambios
 #include <iostream>
 #include "Primo.h"
 #include "Factorial.h"
 #include "ParImpar.h"
 #include "Binario.h"
 
-// Definiciones de códigos de color ANSI
+// Definiciones de cï¿½digos de color ANSI
 #define ANSI_COLOR_RESET   "\x1b[0m"
 #define ANSI_COLOR_RED     "\x1b[31m"
 #define ANSI_COLOR_GREEN   "\x1b[32m"
@@ -76,14 +77,14 @@ int main() {
                 break;
             }
             case 0:
-                std::cout << ANSI_COLOR_RED << "Saliendo de la calculadora. ¡Hasta luego!" << ANSI_COLOR_RESET << std::endl;
+                std::cout << ANSI_COLOR_RED << "Saliendo de la calculadora. ï¿½Hasta luego!" << ANSI_COLOR_RESET << std::endl;
                 break;
             default:
-                std::cout << ANSI_COLOR_RED << "Opcion no válida. Intente de nuevo." << ANSI_COLOR_RESET << std::endl;
+                std::cout << ANSI_COLOR_RED << "Opcion no vï¿½lida. Intente de nuevo." << ANSI_COLOR_RESET << std::endl;
                 break;
         }
 
-        // Espera antes de volver al menú
+        // Espera antes de volver al menï¿½
         std::cout << "Presione Enter para continuar...";
         std::cin.ignore();
         std::cin.get();
