@@ -1,4 +1,5 @@
 // Factorial.cpp
+// Cambios
 #include "Factorial.h"
 
 int calcularFactorial(int numero) {
